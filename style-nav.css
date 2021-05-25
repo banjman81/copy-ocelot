@@ -217,6 +217,7 @@ body::-webkit-scrollbar-thumb {
     padding: 3px;
     font-size: 13px;
     margin: 5px;
+    color: white;
 }
 
 .right-nav{

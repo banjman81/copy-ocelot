@@ -116,6 +116,12 @@
     margin: 20px auto;
     display: flex;
 }
+.side:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 300ms;
+    box-shadow: 0 0 5px rgb(224, 224, 153);
+}
 .side p{
     margin-top: -10px;
     font-size: 17px;
@@ -136,6 +142,12 @@
     border-radius: 15px;
     margin: 20px auto;
     display: flex;
+}
+.chosen:hover{
+    opacity: 1;
+    transform: scale(1);
+    transition: 300ms;
+    box-shadow: 0 0 5px rgb(224, 224, 153);
 }
 .chosen p{
     margin-top: -5px;
@@ -229,4 +241,8 @@
     height: 120px;
     position: relative;
     top: -40px;
+}
+.legend-stat img:hover{
+    transform: scale(1.15);
+    transition: 500ms;
 }
