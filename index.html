@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Legends Stats</title>
+    <link rel="stylesheet" href="style-nav.css">
+    <link rel="stylesheet" href="style-content.css">
+    <link rel="stylesheet" href="style-media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <!------------ The top nav row ------------>
+        <div class="nav">
+            <div class="div-top">
+                <div class="title-tab">
+                    <a href="#" class="home">
+                        <svg><path d="M13.814 23.442H7.535V5.86H0V0h40.228a4.2 4.2 0 014.186 4.186v6.447a4.2 4.2 0 01-4.186 4.186H39.6l4.814 8.623h-6.865l-5.065-8.916h-3.517V9.209c3.1-.084 6.112.084 9.084-.084V5.86H27.628v17.582h-6.279V5.86c-2.6.042-5.065-.042-7.535.084zM51.907 23.442h-6.279V0h7.954l8.791 13.479V0h6.279v23.442h-6.865L51.908 8.916z"></path></svg>
+                    </a>
+                    <a href="#" class="legend">
+                        <img class="icon" src="asset/Apex.svg" alt="apex-icon"> <h4>Apex Legends</h4> 
+                    </a>
+                </div>
+                <div class="other-games">
+                    <ul>
+                        <li><a href="#" class="sub-icon">
+                            <p> Legacy Site </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon">
+                            <img src="asset/fortnite.svg" alt="Fortnite"> <p> Fortnite </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon">
+                            <img src="asset/val.svg" alt="Valorant"> <p> Valorant </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon">
+                            <img src="asset/Destiny.svg" alt="Destiny"> <p> Destiny </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon">
+                            <img src="asset/COD.svg" alt="Call"> <p> Call of Duty </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon">
+                            <img src="asset/r6.svg" alt="Rainbow"> <p> Rainbow Six </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon">
+                            <img src="asset/lol.svg" alt="League"> <p> League of Legends </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon">
+                            <img src="asset/tft.svg" alt="tft"> <p> Teamfight Tactic </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon">
+                            <img src="asset/hyper.svg" alt="Hyper"> <p> Hyper Scape </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon">
+                            <img src="asset/halo.svg" alt="Halo"> <p> Halo: MCC </p></a>
+                        </li>
+                        <li><a href="#" class="sub-icon1">
+                            <img src="asset/dots.svg" alt="Halo"> <p> View more games </p></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-nav">
+                <div class="left-nav">
+                    <div class="search">
+                        <img src="asset/search.svg" alt="search" height="20px">
+                        <a href="#"> Search Profile</a>
+                    </div>
+
+                    <div class="nav-contents">
+                        <ul>
+                            <li class="border-btm-red"><p> Home </p></li>
+                            <li class="ghover"><p> Leadboard </p></li>
+                            <li class="ghover"><p> Arena Challenges <span class="alert">NEW</span></p></li>
+                            <li class="ghover"><p> Insight </p></li>
+                            <li class="ghover"><p> Premium </p></li>
+                            <li class="ghover"><p> Shop </p></li>
+                            <li class="ghover"><p> OSB Overlay </p></li>
+                            <li class="none"><p> <img src="asset/win10.svg" alt="win10" height="20px"> Get the App </p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-nav">
+                    <div class="rn1">
+                        <img src="asset/add.svg" alt="add" height="25px">
+                        <p>My profile</p> 
+                    </div>
+                    <div class="rn2">
+                        <img class="img1" src="asset/bell.svg" alt="bell" height="25px">
+                        <img class="img2"src="asset/gift.svg" alt="gift" height="25px">
+                    </div>
+                    <div class="rn3">
+                        <p>Login</p> 
+                    </div>
+                    <div class="rn4">
+                        <p>Register</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------ search and leaderboard ------------>
+        <div class="content">
+            <div class="hero">
+                <div class="hero-left">
+                    <div class="about">
+                        <div>
+                            <img src="asset/Apex.svg" alt="apex" height="50px">
+                        </div>
+                        <div>
+                            <h1>APEX LEGENDS STATS</h1>
+                            <p>Check Detailed Apex Legends Stats and Leaderboards</p>
+                        </div>
+                    </div>
+                    <div class="lookup">
+                        <div class="platform-icon border-l"><img src="asset/origin.svg" alt="origin" height="35px"></div>
+                        <div class="platform-icon"><img src="asset/xbox.svg" alt="xbox" height="35px"></div>
+                        <div class="platform-icon selected"><img src="asset/ps.svg" alt="ps" height="35px"></div>
+                        <div class="input"><input type="text" placeholder="Enter Playstation Network Username"></div>
+                    </div>
+                    <div class="players">
+                        <p>13,433,660 Tracked Players</p>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="side">
+                        <div class="profile-pic">
+                            <img src="asset/Aceu.jpg" alt="Aceu">
+                        </div>
+                        <div class="player-info">
+                            <div class="p-name">
+                                <img src="asset/origin.svg" alt="origin" height="25px">
+                                <h3>Aceu</h3>
+                            </div>
+                            <p>View Leaderboard</p>
+                        </div>
+                        <div class="s-stats">
+                            <p>Season 9 Kills</p>
+                            <h2>4,523</h2>
+                        </div>
+                    </div>
+                    <div class="chosen">
+                        <div class="profile-pic">
+                            <img src="asset/bh.JPG" alt="bh">
+                        </div>
+                        <div class="player-info">
+                            <div class="p-name">
+                                <img src="asset/origin.svg" alt="origin" height="30px">
+                                <h3>Benjamin</h3>
+                            </div>
+                            <p>View Leaderboard</p>
+                        </div>
+                        <div class="s-stats">
+                            <p>Rank Score</p>
+                            <h2>9,321</h2>
+                        </div>
+                    </div>
+                    <div class="side">
+                        <div class="profile-pic">
+                            <img src="asset/shroud.jpg" alt="shroud">
+                        </div>
+                        <div class="player-info">
+                            <div class="p-name">
+                                <img src="asset/origin.svg" alt="origin" height="25px">
+                                <h3>Shroud</h3>
+                            </div>
+                            <p>View Leaderboard</p>
+                        </div>
+                        <div class="s-stats">
+                            <p>Season 9 Wins</p>
+                            <h2>356</h2>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="meta">
+                <div class="spacer">
+                    <div class="l-meta">
+                        <img src="asset/diamond.svg" alt="diamons" height="45px">
+                        <p>Legend Meta</p>
+                    </div>
+                    <p>Legend meta data is sampled from all tracked player data across all playlists for usage and kills per match.</p>
+                    <button class="btn"><a href="#">View All Legends</a></button>
+                </div>
+                <div class="spacer">
+                    <div class="legend-stat">
+                        <img src="https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png" alt="bloodhound">
+                        <div>
+                            <h3>Bloodhound</h3>
+                            <p>Usage 11.2% KPM 1.4</p>
+                        </div>
+                    </div>
+                    <div class="legend-stat">
+                        <img src="https://trackercdn.com/cdn/apex.tracker.gg/legends/lifeline-tile.png" alt="lifeline">
+                        <div>
+                            <h3>Lifeline</h3>
+                            <p>Usage 10.6% KPM 2.2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="spacer">
+                    <div class="legend-stat">
+                        <img src="https://trackercdn.com/cdn/apex.tracker.gg/legends/wraith-tile.png" alt="bloodhound">
+                        <div>
+                            <h3>Wraith</h3>
+                            <p>Usage 10.8% KPM 2.6</p>
+                        </div>
+                    </div>
+                    <div class="legend-stat">
+                        <img src="https://trackercdn.com/cdn/apex.tracker.gg/legends/pathfinder-tile.png" alt="lifeline">
+                        <div>
+                            <h3>Pathfinder</h3>
+                            <p>Usage 9.7% KPM 2.4</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!------------ The media and news ------------>
+        <div class="media">
+            <div class="t-head">
+                <img src="asset/media.svg" alt="media" height="80px">
+                <h2>News & Media</h2>
+            </div>
+            <div>
+                <table class="news-table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="banner">
+                                    <div class="banner-t">
+                                        <img src="https://imgsvc.trackercdn.com/url/size(640x360),fit(cover),quality(30)/https%3A%2F%2Ftrackercdn.com%2Fghost%2Fimages%2F2021%2F5%2F231344_weeklymay23.jpg/image.jpg" alt="banner">
+                                    </div>
+                                    <div class="banner-m">
+                                        <p class="tm">tm</p>
+                                        <p>2 days ago</p>
+                                    </div>
+                                    <div class="banner-b">
+                                        <p>TRN KEEKLY: May 23, 2021</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="banner">
+                                    <div class="banner-t">
+                                        <img src="https://imgsvc.trackercdn.com/url/size(640x360),fit(cover),quality(30)/https%3A%2F%2Ftrackercdn.com%2Fghost%2Fimages%2F2021%2F5%2F121550_partnership-announcement_advancedgg_new.jpg/image.jpg" alt="banner">
+                                    </div>
+                                    <div class="banner-m">
+                                        <p class="tm">tm</p>
+                                        <p>1 week ago</p>
+                                    </div>
+                                    <div class="banner-b">
+                                        <p>Tracker Network Partners With Advanced</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="banner">
+                                    <div class="banner-t">
+                                        <img src="https://imgsvc.trackercdn.com/url/size(640x360),fit(cover),quality(30)/https%3A%2F%2Ftrackercdn.com%2Fghost%2Fimages%2F2021%2F5%2F9942_weeklymay9.jpg/image.jpg" alt="banner">
+                                    </div>
+                                    <div class="banner-m">
+                                        <p class="tm">tm</p>
+                                        <p>2 week ago</p>
+                                    </div>
+                                    <div class="banner-b">
+                                        <p>TRN KEEKLY: May 9, 2021</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="banner">
+                                    <div class="banner-t">
+                                        <img src="https://imgsvc.trackercdn.com/url/size(640x360),fit(cover),quality(30)/https%3A%2F%2Ftrackercdn.com%2Fghost%2Fimages%2F2021%2F5%2F21327_weeklymay2.jpg/image.jpg" alt="banner">
+                                    </div>
+                                    <div class="banner-m">
+                                        <p class="tm">tm</p>
+                                        <p>3 weeks ago</p>
+                                    </div>
+                                    <div class="banner-b">
+                                        <p>TRN KEEKLY: May 2, 2021</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="banner">
+                                    <div class="banner-t">
+                                        <img src="https://imgsvc.trackercdn.com/url/size(640x360),fit(cover),quality(30)/https%3A%2F%2Ftrackercdn.com%2Fghost%2Fimages%2F2021%2F4%2F251440_weeklyapril25.jpg/image.jpg" alt="banner">
+                                    </div>
+                                    <div class="banner-m">
+                                        <p class="tm">tm</p>
+                                        <p>4 weeks</p>
+                                    </div>
+                                    <div class="banner-b">
+                                        <p>TRN KEEKLY: April 25, 2021</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="banner">
+                                    <div class="banner-t">
+                                        <img src="https://imgsvc.trackercdn.com/url/size(640x360),fit(cover),quality(30)/https%3A%2F%2Ftrackercdn.com%2Fghost%2Fimages%2F2021%2F4%2F11925_weeklyapril11.jpg/image.jpg" alt="banner">
+                                    </div>
+                                    <div class="banner-m">
+                                        <p class="tm">tm</p>
+                                        <p>1 month ago</p>
+                                    </div>
+                                    <div class="banner-b">
+                                        <p>TRN KEEKLY: April 11, 2021</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="banner">
+                                    <div class="banner-t">
+                                        <img src="https://imgsvc.trackercdn.com/url/size(640x360),fit(cover),quality(30)/https%3A%2F%2Ftrackercdn.com%2Fghost%2Fimages%2F2021%2F3%2F71052_weeklymarch7.jpg/image.jpg" alt="banner">
+                                    </div>
+                                    <div class="banner-m">
+                                        <p class="tm">tm</p>
+                                        <p>2 months ago</p>
+                                    </div>
+                                    <div class="banner-b">
+                                        <p>TRN KEEKLY: March 7, 2021</p>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="banner">
+                                    <div class="banner-t">
+                                        <img src="https://imgsvc.trackercdn.com/url/size(640x360),fit(cover),quality(30)/https%3A%2F%2Ftrackercdn.com%2Fghost%2Fimages%2F2021%2F2%2F14149_weeklyfebruary14.jpg/image.jpg" alt="banner">
+                                    </div>
+                                    <div class="banner-m">
+                                        <p class="tm">tm</p>
+                                        <p>3 months ago</p>
+                                    </div>
+                                    <div class="banner-b">
+                                        <p>TRN KEEKLY: Febuary 14, 2021</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><h3 class="load">Load more</h3></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!------------ The summary ------------>
+        <div class="summary">
+                <h2>About our Apex Legends Stats</h2>
+                <p>Tracker.gg's Apex Legends Stats Tracker is a Tracker Network project. Tracker.gg provides Apex Legends stats, as well as global and regional leaderboards for players around the world. Use our apex legends stats tracker to see who is the best in the world. You can see leaderboards for combat, score and team play, including stats such as kills per minute, head shot accuracy and seasonal win stats. Our leaderboards show the leaders for every player on Origin, Playstation and Xbox who has used our site. View your top legends and match history grouped by gaming session. Compare your Apex Legends stats against your friends or favorite streamers. Tracker.gg provides the latest news from your favorite games along side your personalized stats profile in order to keep you informed and ahead of the competition.</p>
+        </div>
+
+        <!------------ The footer ------------>
+        <div class="social">
+            <div class="social-l">
+                <h1>
+                    Be More Social
+                </h1>
+                <p>
+                    Join the Tracker community for the latest updates and hot topic discussions of your favorite games.
+                </p>
+            </div>
+            <div class="social-r">
+                <img class="social-cell tw" src="asset/twitter.svg" alt="twitter">
+                <img class="social-cell ig" src="asset/ig.svg" alt="ig">
+                <img class="social-cell dc" src="asset/discord.svg" alt="discord">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot-t">
+                <div class="year">
+                    2021 © <a href="#">Tracker Network</a> 
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Term of Service</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Developer API</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>Apex Legends is a registered trademark of Electronic Arts. Trademarks are the property of their respective owners. Game materials copyright Electronic Arts. Electronic Arts has not endorsed and is not responsible for this site or its content.</p>
+        </div>
+    </div>
+</body>
+</html>

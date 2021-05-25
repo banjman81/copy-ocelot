@@ -1,0 +1,232 @@
+.content{
+    background-color: #5c1717;
+    margin: 0;
+    position: relative;
+    bottom: 10px;
+}
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://imgsvc.trackercdn.com/url/height(1000),quality(40)/https%3A%2F%2Ftrackercdn.com%2Fcdn%2Ftracker.gg%2Fapex%2Fhome-bg-2.jpg/image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 450px;
+    border-bottom-left-radius: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 300px;
+}
+/* ----------------------------------------------------------TOP------------------------------------------- */
+.hero background-image{
+    position: relative;
+    bottom:200px;
+}
+.hero-left{
+    width: 50%;
+}
+.about{
+    color: white;
+    margin: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about div{
+    margin: 50px 0;
+}
+.about img{
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #d0292a;
+    border-radius: 5px;
+}
+.about h1{
+    margin-bottom: 5px;
+    transform: scale(1.1, 2);
+    text-align: center;
+}
+.about p{
+    margin-top: 0;
+    font-size: 15px;
+}
+.lookup{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.platform-icon{
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.platform-icon img{
+    margin: 15px;
+    padding: 5px;
+}
+.platform-icon img:hover{
+    cursor: pointer;
+}
+.input{
+    width: 500px;
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.747);
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    outline: none;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.input input::placeholder{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.473);
+}
+.border-l{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.selected{
+    background-color: #292929;
+}
+.players{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+/* -------------------------------------------------------------------TOP RIGHT--------------------------------------------- */
+.hero-right{
+    display: block;
+    width: 50%;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    text-align: left;
+}
+.side{
+    width: 400px;
+    background-image: linear-gradient(to right,#6a5f35, #c5b262);
+    opacity: 0.7;
+    height: 80px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: flex;
+}
+.side p{
+    margin-top: -10px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.side .profile-pic img{
+    margin: 5px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: 4px solid rgba(255, 255, 255, 0.788);
+}
+.chosen{
+    width: 450px;
+    background-image: linear-gradient(to right,#6a5f35, #c5b262);
+    height: 100px;
+    opacity: 0.85;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: flex;
+}
+.chosen p{
+    margin-top: -5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.chosen .profile-pic img{
+    margin: 12.5px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 4px solid rgba(255, 255, 255, 0.788);
+}
+.profile-pic{
+    background-color: #d3c278;
+    width: 25%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.player-info{
+    width: 50%;
+}
+.player-info p{
+    margin-left: 25px;
+}
+.p-name{
+    display: flex;
+    justify-content: left;
+}
+.p-name img{
+    padding-top: 15px;
+    margin-left: 25px;
+}
+.s-stats{
+    padding-top: 20px;
+    margin: 0;
+    width: 150px;
+}
+.s-stats h2{
+    margin: 0;
+    width: 20px;
+}
+.s-stats p{
+    margin: 0;
+}
+/* -------------------------------------------------------- BOTTOM HERO------------------------------------------------- */
+.meta{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 300px;
+}
+.spacer{
+    width: 390px;
+    padding: 25px 10px;
+}
+.btn{
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #d0292a;
+}
+.btn:hover{
+    box-shadow: 0 5px 3px #a821217c;
+    transform: scale(1.05);
+    transition: 500ms;
+}
+.spacer a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 800px;
+}
+.l-meta{
+    display: flex;
+}
+.legend-stat{
+    display: flex;
+    background-color: #421010;
+    border-radius: 10px;
+    margin: 50px 0 40px;
+    height: 60px;
+}
+.legend-stat p{
+    margin:  5px 0;
+}
+.legend-stat h3{
+    margin: 5px 0;
+}
+.legend-stat img{
+    height: 120px;
+    position: relative;
+    top: -40px;
+}

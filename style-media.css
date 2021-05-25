@@ -1,0 +1,153 @@
+.media{
+    padding: 0 300px;
+    color: rgb(223, 221, 221);
+}
+.media table{
+    border-top: 2px solid gray;
+    padding-top: 45px;
+}
+.media p{
+    margin: 0px;
+}
+.banner{
+    width: 300px;
+    height: 300px;
+    background-color: #353535;
+    border-radius: 15px;
+    margin: 10px;
+}
+.banner-t img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.banner-m{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.banner-b{
+    padding: 15px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tm{
+    background-color: #d0292a;
+    padding: 1px 3px;
+    border-radius: 8px;
+    width: 25px;
+    text-align: center;
+}
+.newstable td{
+    margin: 25px;
+}
+.t-head{
+    display: flex;
+    background-color: #1d1d1d;
+    width: 250px;
+    position: relative;
+    bottom: -45px;
+}
+.load{
+    background-color: #353535;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+.load:hover{
+    position: relative;
+    bottom: 1px;
+    cursor: pointer;
+    transition: 1s;
+}
+/* ----------------------FOOTER STUFF---------------- */
+.summary{
+    padding: 20px 300px;
+    color: rgb(199, 199, 199);
+    background-color: #272727;
+    
+}
+.summary h2{
+    text-align: center;
+}
+.summary p{
+    text-align: justify;
+    font-size: 15px;
+}
+.social{
+    padding: 20px 300px;
+    display: flex;
+    color: rgb(207, 206, 206);
+}
+.social img{
+    height: 25px;
+}
+.social-l{
+    width: 450px;
+}
+.social-r{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.social-cell{
+    margin: 0 20px;
+    padding: 8px 100px;
+    border-radius: 15px;
+}
+.tw{
+    background-color: #1da1f2;
+}
+.ig{
+    background-color: #c74274;
+}
+.dc{
+    background-color: #7289da;
+}
+.tw:hover{
+    cursor: pointer;
+    position: relative;
+    bottom: 1px;
+    transition: 500ms;
+    box-shadow: 0px 5px 3px #1da0f22f;
+}
+.ig:hover{
+    cursor: pointer;
+    position: relative;
+    bottom: 1px;
+    transition: 300ms;
+    box-shadow: 0px 5px 3px #c742752f;
+}
+.dc:hover{
+    cursor: pointer;
+    position: relative;
+    bottom: 1px;
+    transition: 500ms;
+    box-shadow: 0px 5px 3px #7289da33;
+}
+.footer{
+    padding: 0 300px 50px;
+    color: #666666;
+}
+.footer ul{
+    display: flex;
+    list-style-type: none;
+}
+.footer li{
+    margin: 0 20px;
+}
+.footer a{
+    color: #666666;
+    text-decoration: none;
+}
+.foot-t{
+    display: flex;
+    justify-content: space-between;
+}
+.year{
+    padding-top: 20px;
+}
+.year a{
+    text-decoration: underline;
+}
